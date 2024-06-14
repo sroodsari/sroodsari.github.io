@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.league-spartan {
+	font-family: "League Spartan", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+@keyframes gradientShift {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.bg-pink-gradient {
+	/* Define your gradient here */
+	background: linear-gradient(270deg, #ffbace, rgb(165, 132, 149));
+	background-size: 200% 200%;
+
+	/* Apply the animation */
+	animation: gradientShift 6s ease infinite;
+}
