@@ -60,12 +60,6 @@
 	text-align: center;
 }
 
-/* Add styles for smaller flowers */
-.flower {
-	width: 10px;
-	height: 10px;
-}
-
 @keyframes shake {
 
 	0%,

@@ -1,7 +1,6 @@
-// Flower.js
 import React from 'react';
 
-const Flower = () => {
+const Flower = ({ className }) => {
   return (
     <svg
       width="50"
@@ -9,6 +8,7 @@ const Flower = () => {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <ellipse cx="18" cy="12" rx="4" ry="2.5" fill="#d2bafc" />
       <ellipse cx="6" cy="12" rx="4" ry="2.5" fill="#d2bafc" />
