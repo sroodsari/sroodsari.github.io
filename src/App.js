@@ -8,13 +8,9 @@ function App() {
         style={{ backgroundColor: '#f9f8eb', width: '70%', height: '70%', maxWidth: '70%', maxHeight: '70%', minHeight: '70vh', minWidth: '70vw' }}>
         <div className="flex items-center">
           <Flower className="flower mx-4" />
-          <Flower className="flower mx-4" />
-          <Flower className="flower mx-4" />
-          <h1 className="text-4xl font-light p-5 text-stone-800 league-spartan" style={{ color: '#3f2a14' }}>
+          <h1 className="text-4xl font-light text-stone-800 league-spartan text-center sm:text-left" style={{ color: '#3f2a14' }}>
             Susan Roodsari
           </h1>
-          <Flower className="flower mx-4" />
-          <Flower className="flower mx-4" />
           <Flower className="flower mx-4" />
         </div>
         <p className="text-md font-thin text-center league-spartan" style={{ color: '#3f2a14', maxWidth: '70%' }}>
