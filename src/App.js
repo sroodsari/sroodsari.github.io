@@ -17,7 +17,7 @@ function App() {
           Hi! I'm Susan, a former biologist and aspiring software engineer. I'm currently an apprentice at Asana and I'm looking forward to learning lots of new things :D
         </p>
         <div className="flex justify-center gap-4 mt-8 league-spartan">
-          <a href={`${process.env.PUBLIC_URL}/susan_roodsari_mar_2024_resume.pdf`} target="_blank" rel="noopener noreferrer">
+          <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer">
             <button className="bg-white font-base hover:font-medium opacity-80 rounded-full border-2 border-stone-600 text-stone-600 hover:border-stone-800 hover:text-stone-800 size-14 sm:size-16 flex items-center justify-center text-xs sm:text-sm">
               resume
             </button>
