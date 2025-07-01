@@ -53,7 +53,7 @@
 
 .bg-pink-gradient {
 	/* Define your gradient here */
-	background: linear-gradient(270deg, #ffcfdd, rgb(255, 238, 247));
+	background: linear-gradient(270deg, #f3e2e7, rgb(255, 247, 251));
 	background-size: 200% 200%;
 	/* Apply the animation */
 	animation: gradientShift 6s ease infinite;
