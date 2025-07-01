@@ -1,5 +1,6 @@
 import React from 'react';
 import Flower from './Flower.js';
+import './App.css';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Flower className="size-8 sm:size-15 mb-1" />
         </div>
         <p className="text-base sm:text-xl font-thin text-center league-spartan" style={{ color: '#3f2a14', maxWidth: '70%' }}>
-          Hi! I'm Susan, a former biologist and aspiring software engineer. I'm currently an apprentice at Asana and I'm looking forward to learning lots of new things :D
+          Hi! I'm Susan — a former biologist turned software engineer and product thinker. I previously worked on the Agentic AI team at Asana, where I helped design and ship AI-powered features. I'm now a growth product manager at <a href="https://www.trycandle.app/" target="_blank" rel="noopener noreferrer">Candle Couples</a>, a YC-backed startup, where I combine engineering intuition with user insight to build and scale meaningful experiences.
         </p>
         <div className="flex justify-center gap-4 mt-8 league-spartan">
           <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer">
