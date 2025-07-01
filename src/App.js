@@ -1,14 +1,18 @@
 import React from 'react';
 import Flower from './Flower.js';
 import './App.css';
+import { LinkedInIcon } from './Icons.jsx';
 
 function App() {
   return (
     <div className="App">
-      <div className="w-full fixed top-0 z-50 bg-[#ffffff] text-left py-6">
-        <h1 className="text-base sm:text-xl text-stone-700 font-medium ml-[50px]">
+      <div className="w-full fixed top-0 z-50 bg-[#ffffff] text-left py-6 flex justify-between items-center px-[50px]">
+        <h1 className="text-base sm:text-xl text-stone-700 font-medium">
           Susan Roodsari
         </h1>
+        <a href="https://linkedin.com/in/sroodsari" target="_blank" rel="noopener noreferrer">
+          <LinkedInIcon className="size-8 opacity-100 hover:opacity-70" />
+        </a>
       </div>
       <div className="app-container relative flex flex-col justify-center items-center bg-pink-gradient text-xl  min-h-screen ">
         <div className="flex items-center mb-4">
