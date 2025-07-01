@@ -1,5 +1,4 @@
 import React from 'react';
-import Flower from './Flower.js';
 import './App.css';
 import { GithubIcon, LinkedInIcon } from './Icons.jsx';
 
@@ -7,7 +6,7 @@ function App() {
   return (
     <div className="font-runde">
       <div className="w-full fixed top-0 z-50 bg-[#ffffff] text-left py-4 flex justify-between items-center px-[50px] font-runde">
-        <h1 className="text-base sm:text-xl text-stone-500 font-light">
+        <h1 className="text-base sm:text-xl font-light" style={{ color: '#5F5F5F' }}>
           About Me
         </h1>
         <div className="flex gap-6">
@@ -21,12 +20,12 @@ function App() {
       </div>
       <div className="app-container flex flex-col justify-left items-center bg-pink-gradient text-xl  min-h-screen ">
         <div className="flex justify-items-start mb-4 absolute top-[120px] left-[50px]">
-          <h1 className="sm:text-5xl text-2xl font-semibold tracking-tight text-stone-800 text-center sm:text-left mx-4" style={{ color: '#3f2a14' }}>
+          <h1 className="sm:text-5xl text-2xl font-semibold tracking-tight text-center sm:text-left mx-4" style={{ color: '#5F5F5F' }}>
             Hi, I'm Susan!
           </h1>
 
         </div>
-        <p className="text-base sm:text-xl font-thin tracking-tight text-left" style={{ color: '#3f2a14', maxWidth: '70%' }}>
+        <p className="text-base sm:text-xl font-thin tracking-tight text-left" style={{ color: '#5F5F5F', maxWidth: '70%' }}>
           I'm a former biologist turned software engineer and product thinker. <br /><br />
           I previously worked on the Agentic AI team at Asana, where I helped design and ship AI-powered features. <br /><br />
           I'm now a growth product manager at <a href="https://www.trycandle.app/" target="_blank" rel="noopener noreferrer">Candle Couples</a>, a YC-backed startup, where I combine engineering intuition with user insight to build and scale meaningful experiences.<br /><br />
