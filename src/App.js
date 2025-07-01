@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import { GithubIcon, LinkedInIcon } from './Icons.jsx';
+import { GithubIcon, LinkedInIcon, WorkIcon } from './Icons.jsx';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
 
 function App() {
   return (
@@ -18,7 +21,7 @@ function App() {
       </header>
 
       {/* Main content */}
-      <main className="pt-[100px] px-6 sm:px-12 pb-12 min-h-screen bg-white text-[#2e2e2e]">
+      <main className="pt-[100px] px-6 mh-450px sm:px-12 pb-12 min-h-screen bg-white text-[#2e2e2e]">
         <div className="max-w-5xl mx-auto flex flex-col-reverse sm:flex-row items-center sm:items-start gap-8">
           {/* Text content */}
           <div className="flex-1">
@@ -43,7 +46,106 @@ function App() {
           </div>
         </div>
       </main>
-    </div>
+      <div className="relative -mt-10 pt-5 w-full bg-[#ccebf6] text-[#2e2e2e]">
+        <h1 className="pl-8  text-3xl sm:text-5xl font-semibold tracking-tight mb-4 text-center sm:text-left pb-6" >
+          experience
+        </h1>
+        <div className="flex-1">
+          <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: '#3a5a65', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid  #3a5a65' }}
+              date="Jan 2025 - present"
+              iconStyle={{ background: '#3a5a65', color: '#fff' }}
+              icon={<WorkIcon className="size-10 sm:size-20" />}
+            >
+              <h3 className="vertical-timeline-element-title">Growth Product Manager</h3>
+              <h4 className="vertical-timeline-element-subtitle">Candle</h4>
+              <p>
+                Add Description
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Jul 2024 - Jan 2025"
+              iconStyle={{ background: '#3a5a65', color: '#fff' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+              <h4 className="vertical-timeline-element-subtitle">Asana</h4>
+              <p>
+                Add Description
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Jan 2023 - Mar 2024"
+              iconStyle={{ background: '#3a5a65', color: '#fff' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Research Associate</h3>
+              <h4 className="vertical-timeline-element-subtitle">Shinobi Therapeutics</h4>
+              <p>
+                Add Description
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Jun 2022 - Dec 2022"
+              iconStyle={{ background: '#3a5a65', color: '#fff' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Research Associate</h3>
+              <h4 className="vertical-timeline-element-subtitle">Synthego</h4>
+              <p>
+                Add Description
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="Aug 2018 - May 2022"
+              iconStyle={{ background: '#3a5a65', color: '#fff' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Molecular & Cell Biology B.A. <br /> Economics B.A. <br /> Data Science Minor </h3>
+              <p>
+                UC Berkeley '22
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="May 2021-June 2022"
+              iconStyle={{ background: '#3a5a65', color: '#fff' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Research Assistant</h3>
+              <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Public Health, Harris Lab</h4>
+              <p>
+                Add Description
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="Oct 2019-Jul 2021"
+              iconStyle={{ background: '#3a5a65', color: '#fff' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">Research Assistant</h3>
+              <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Molecular & Cell Biology, Weisblat Lab</h4>
+              <p>
+                Add Description
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              iconStyle={{ background: '#3a5a65', color: '#fff' }}
+              icon={<WorkIcon />}
+            />
+          </VerticalTimeline>
+        </div>
+      </div>
+    </div >
   );
 }
 
