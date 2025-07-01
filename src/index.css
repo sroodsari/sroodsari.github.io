@@ -9,6 +9,34 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: "Open Runde";
+	src: url('../public/fonts/OpenRundeRegular.otf') format('opentype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Runde";
+	src: url('../public/fonts/OpenRundeMedium.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Runde";
+	src: url('../public/fonts/OpenRundeSemibold.otf') format('opentype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Runde";
+	src: url('../public/fonts/OpenRundeBold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
+
 @keyframes gradientShift {
 	0% {
 		background-position: 0% 50%;

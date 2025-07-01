@@ -3,7 +3,12 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        runde: ['Open Runde', 'sans-serif'],
+        serif: ['Roboto Slab', 'serif'],
+      },
+    },
   },
   variants: {
     extend: {},
