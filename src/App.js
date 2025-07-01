@@ -20,12 +20,11 @@ function App() {
         </div>
       </div>
       <div className="app-container flex flex-col justify-left items-center bg-pink-gradient text-xl  min-h-screen ">
-        <div className="flex justify-items-start mb-4 absolute top-[100px] left-[50px]">
-          <Flower className="size-15 sm:size-15 mb-1" />
+        <div className="flex justify-items-start mb-4 absolute top-[120px] left-[50px]">
           <h1 className="sm:text-5xl text-2xl font-semibold tracking-tight text-stone-800 text-center sm:text-left mx-4" style={{ color: '#3f2a14' }}>
             Hi, I'm Susan!
           </h1>
-          <Flower className="size-15 sm:size-15 mb-1" />
+
         </div>
         <p className="text-base sm:text-xl font-thin tracking-tight text-left" style={{ color: '#3f2a14', maxWidth: '70%' }}>
           I'm a former biologist turned software engineer and product thinker. <br /><br />
