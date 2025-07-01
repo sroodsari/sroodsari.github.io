@@ -23,20 +23,17 @@ function App() {
         <div className="flex items-center mb-4">
           <Flower className="size-8 sm:size-15 mb-1" />
           <h1 className="sm:text-4xl text-2xl font-semibold tracking-tight text-stone-800 text-center sm:text-left mx-4" style={{ color: '#3f2a14' }}>
-            Welcome
+            Hi I'm Susan!
           </h1>
           <Flower className="size-8 sm:size-15 mb-1" />
         </div>
         <p className="text-base sm:text-xl font-thin tracking-tight text-center" style={{ color: '#3f2a14', maxWidth: '70%' }}>
-          Hi! I'm Susan — a former biologist turned software engineer and product thinker. I previously worked on the Agentic AI team at Asana, where I helped design and ship AI-powered features. I'm now a growth product manager at <a href="https://www.trycandle.app/" target="_blank" rel="noopener noreferrer">Candle Couples</a>, a YC-backed startup, where I combine engineering intuition with user insight to build and scale meaningful experiences.
+          I'm a former biologist turned software engineer and product thinker. I previously worked on the Agentic AI team at Asana, where I helped design and ship AI-powered features. I'm now a growth product manager at <a href="https://www.trycandle.app/" target="_blank" rel="noopener noreferrer">Candle Couples</a>, a YC-backed startup, where I combine engineering intuition with user insight to build and scale meaningful experiences.
         </p>
-        <div className="flex justify-center gap-4 mt-8">
-          <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer">
-            <button className="bg-white font-base hover:font-medium opacity-80 rounded border-2 border-stone-600 text-stone-600 hover:border-stone-800 hover:text-stone-800 px-4 py-3 sm:px-4 sm:py-2 flex items-center justify-center text-xs sm:text-sm">
-              resume
-            </button>
-          </a>
-        </div>
+        <p className="text-base sm:text-xl font-thin tracking-tight text-center" style={{ color: '#3f2a14', maxWidth: '70%' }}>
+          Here's my <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer">resume</a> and you can reach me at sroodsari@berkeley.edu if you want to chat :)
+        </p>
+
       </div>
     </div>
   );
