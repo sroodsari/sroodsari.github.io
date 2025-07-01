@@ -1,18 +1,23 @@
 import React from 'react';
 import Flower from './Flower.js';
 import './App.css';
-import { LinkedInIcon } from './Icons.jsx';
+import { GithubIcon, LinkedInIcon } from './Icons.jsx';
 
 function App() {
   return (
     <div className="font-runde">
-      <div className="w-full fixed top-0 z-50 bg-[#ffffff] text-left py-6 flex justify-between items-center px-[50px] font-runde">
-        <h1 className="text-base sm:text-xl text-stone-500 font-medium">
+      <div className="w-full fixed top-0 z-50 bg-[#ffffff] text-left py-4 flex justify-between items-center px-[50px] font-runde">
+        <h1 className="text-base sm:text-xl text-stone-500 font-light">
           Susan Roodsari
         </h1>
-        <a href="https://linkedin.com/in/sroodsari" target="_blank" rel="noopener noreferrer">
-          <LinkedInIcon className="size-8 opacity-100 hover:opacity-70" />
-        </a>
+        <div className="flex gap-6">
+          <a href="https://github.com/sroodsari" target="_blank" rel="noopener noreferrer">
+            <GithubIcon className="size-8 opacity-100 hover:opacity-70" />
+          </a>
+          <a href="https://linkedin.com/in/sroodsari" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon className="size-8 opacity-100 hover:opacity-70" />
+          </a>
+        </div>
       </div>
       <div className="app-container relative flex flex-col justify-center items-center bg-pink-gradient text-xl  min-h-screen ">
         <div className="flex items-center mb-4">
@@ -27,18 +32,8 @@ function App() {
         </p>
         <div className="flex justify-center gap-4 mt-8">
           <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer">
-            <button className="bg-white font-base hover:font-medium opacity-80 rounded-full border-2 border-stone-600 text-stone-600 hover:border-stone-800 hover:text-stone-800 size-14 sm:size-16 flex items-center justify-center text-xs sm:text-sm">
+            <button className="bg-white font-base hover:font-medium opacity-80 rounded border-2 border-stone-600 text-stone-600 hover:border-stone-800 hover:text-stone-800 px-4 py-3 sm:px-4 sm:py-2 flex items-center justify-center text-xs sm:text-sm">
               resume
-            </button>
-          </a>
-          <a href="https://linkedin.com/in/sroodsari" target="_blank" rel="noopener noreferrer">
-            <button className="bg-white font-base hover:font-medium opacity-80 rounded-full border-2 border-stone-600 text-stone-600 hover:border-stone-800 hover:text-stone-800 size-14 sm:size-16 flex items-center justify-center text-xs sm:text-sm">
-              linkedin
-            </button>
-          </a>
-          <a href="https://github.com/sroodsari" target="_blank" rel="noopener noreferrer">
-            <button className="bg-white font-base hover:font-medium opacity-80 rounded-full border-2 border-stone-600 text-stone-600 hover:border-stone-800 hover:text-stone-800 size-14 sm:size-16 flex items-center justify-center text-xs sm:text-sm">
-              github
             </button>
           </a>
         </div>
