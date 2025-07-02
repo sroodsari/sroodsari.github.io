@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { GithubIcon, LinkedInIcon, WorkIcon } from './Icons.jsx';
+import { GithubIcon, GraduationIcon, LinkedInIcon, WorkIcon } from './Icons.jsx';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -108,7 +108,7 @@ function App() {
               contentArrowStyle={{ borderRight: '7px solid  #3a5a65' }}
               date="Aug 2018 - May 2022"
               iconStyle={{ background: '#3a5a65', color: '#fff' }}
-              icon={<WorkIcon className="size-10 sm:size-20" />}
+              icon={<GraduationIcon className="size-10 sm:size-20" />}
             >
               <h3 className="vertical-timeline-element-title">Molecular & Cell Biology B.A. <br /> Economics B.A. <br /> Data Science Minor </h3>
               <p>
