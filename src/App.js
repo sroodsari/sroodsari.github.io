@@ -21,7 +21,7 @@ function App() {
       </header>
 
       {/* Main content */}
-      <main className="pt-[7.25rem] pb-[6.25rem] px-6 mh-[28.125rem] sm:px-14 min-h-screen bg-white text-[#3a5a65] flex items-center">
+      <main className="pt-[6.25rem] pb-[7.25rem] px-6 mh-[28.125rem] sm:px-14 min-h-screen bg-white text-[#3a5a65] flex items-center">
         <div className="max-w-5xl mx-auto flex flex-col-reverse sm:flex-row items-center sm:items-start gap-8">
           {/* Text content */}
           <div className="flex-1">
