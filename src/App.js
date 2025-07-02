@@ -106,13 +106,13 @@ function App() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: '#3a5a65', color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid  #3a5a65' }}
-              date="Jan 2025 - present"
+              date="Aug 2018 - May 2022"
               iconStyle={{ background: '#3a5a65', color: '#fff' }}
               icon={<WorkIcon className="size-10 sm:size-20" />}
             >
               <h3 className="vertical-timeline-element-title">Molecular & Cell Biology B.A. <br /> Economics B.A. <br /> Data Science Minor </h3>
               <p>
-                UC Berkeley '22
+                University of California, Berkeley '22
               </p>
             </VerticalTimelineElement>
 
