@@ -21,14 +21,14 @@ function App() {
       </header>
 
       {/* Main content */}
-      <main className="pt-[100px] px-6 mh-450px sm:px-12 pb-12 min-h-screen bg-white text-[#3a5a65]">
+      <main className="pt-[7.25rem] pb-[6.25rem] px-6 mh-[28.125rem] sm:px-14 min-h-screen bg-white text-[#3a5a65] flex items-center">
         <div className="max-w-5xl mx-auto flex flex-col-reverse sm:flex-row items-center sm:items-start gap-8">
           {/* Text content */}
           <div className="flex-1">
-            <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight mb-4 text-center sm:text-left pb-6" >
+            <h1 className="text-3xl sm:text-6xl font-semibold tracking-tight mb-4 text-center sm:text-left pb-6" >
               hi, i'm susan!
             </h1>
-            <p className="text-base sm:text-xl font-thin tracking-tight leading-relaxed">
+            <p className="text-base sm:text-2xl font-thin tracking-tight leading-relaxed">
               I'm a former biologist turned software engineer and product thinker. <br /><br />
               I previously worked on the Agentic AI team at Asana, where I helped design and ship AI-powered features. <br /><br />
               I'm now a growth product manager at <a className="underline" href="https://www.trycandle.app/" target="_blank" rel="noopener noreferrer">Candle</a>, a YC-backed startup, where I combine engineering intuition with user insight to build and scale meaningful experiences. <br /><br />
