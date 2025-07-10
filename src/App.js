@@ -128,7 +128,7 @@ function App() {
                 PCR, Protein Mutagenesis/Cloning, Protein Production/Purification, SDS Page, Western Blot
                 <br />
                 <a className="underline text-xs" href="https://journals.asm.org/doi/10.1128/jvi.00661-22" target="_blank" rel="noopener noreferrer">
-                  <span className="flex items-center gap-2"><PaperIcon className="size-6 sm:size-8 hover:opacity-70 text-[#7b8588]" />Molecular Determinants of Tissue Specificity of Flavivirus Nonstructural Protein 1 Interaction with Endothelial Cells</span>
+                  <span className="flex items-center gap-2"><PaperIcon className="size-10 sm:size-6 hover:opacity-70 text-[#7b8588]" />Molecular Determinants of Tissue Specificity of Flavivirus Nonstructural Protein 1 Interaction with Endothelial Cells</span>
                 </a>
               </p>
             </VerticalTimelineElement>
