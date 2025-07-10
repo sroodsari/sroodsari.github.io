@@ -123,7 +123,7 @@ function App() {
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Research Assistant</h3>
-              <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Public Health, Harris Lab</h4>
+              <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Public Health, <a href="https://www.harrisresearchprogram.org/" target="_blank" rel="noopener noreferrer" className="underline">Harris Lab</a></h4>
               <p className="font-light text-[#7b8588] text-sm">
                 PCR, Protein Mutagenesis/Cloning, Protein Production/Purification, SDS Page, Western Blot
                 <br />
@@ -140,7 +140,7 @@ function App() {
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Research Assistant</h3>
-              <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Molecular & Cell Biology, Weisblat Lab</h4>
+              <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Molecular & Cell Biology, <a href="https://mcb.berkeley.edu/labs/weisblat/" target="_blank" rel="noopener noreferrer" className="underline">Weisblat Lab</a></h4>
               <p className="font-light text-[#7b8588] text-sm">
                 In Situ Hybridization, Fluorescent Lineage Tracing, CRISPR editing
               </p>
