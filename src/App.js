@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { GithubIcon, GraduationIcon, LinkedInIcon, WorkIcon } from './Icons.jsx';
+import { GithubIcon, GraduationIcon, LinkedInIcon, PaperIcon, WorkIcon } from './Icons.jsx';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -126,6 +126,10 @@ function App() {
               <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Public Health, Harris Lab</h4>
               <p className="font-light text-[#7b8588] text-sm">
                 PCR, Protein Mutagenesis/Cloning, Protein Production/Purification, SDS Page, Western Blot
+                <br />
+                <a className="underline text-xs" href="https://journals.asm.org/doi/10.1128/jvi.00661-22" target="_blank" rel="noopener noreferrer">
+                  <span className="flex items-center gap-2"><PaperIcon className="size-6 sm:size-8 hover:opacity-70 text-[#7b8588]" />Molecular Determinants of Tissue Specificity of Flavivirus Nonstructural Protein 1 Interaction with Endothelial Cells</span>
+                </a>
               </p>
             </VerticalTimelineElement>
 
