@@ -98,7 +98,7 @@ function App() {
             >
               <h3 className="vertical-timeline-element-title">Research Associate</h3>
               <h4 className="vertical-timeline-element-subtitle">Synthego</h4>
-              <p>
+              <p className="font-light text-[#7b8588] text-sm">
                 Cell Culture, Gene Editing, Viral Transduction, Electroporation
               </p>
             </VerticalTimelineElement>
