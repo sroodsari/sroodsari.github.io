@@ -97,7 +97,7 @@ function App() {
               icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Research Associate</h3>
-              <h4 className="vertical-timeline-element-subtitle">Synthego</h4>
+              <h4 className="vertical-timeline-element-subtitle"><a href="https://www.synthego.com" target="_blank" rel="noopener noreferrer" className="underline">Synthego</a></h4>
               <p className="font-light text-[#7b8588] text-sm">
                 Cell Culture, Gene Editing, Viral Transduction, Electroporation
               </p>
