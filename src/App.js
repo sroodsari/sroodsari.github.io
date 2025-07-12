@@ -98,9 +98,9 @@ function App() {
             >
               <h3 className="vertical-timeline-element-title">Research Associate</h3>
               <h4 className="vertical-timeline-element-subtitle">Synthego</h4>
-              {/* <p>
-                Add Description
-              </p> */}
+              <p>
+                Cell Culture, Gene Editing, Viral Transduction, Electroporation
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -126,6 +126,7 @@ function App() {
               <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Public Health, <a href="https://www.harrisresearchprogram.org/" target="_blank" rel="noopener noreferrer" className="underline">Harris Lab</a></h4>
               <p className="font-light text-[#7b8588] text-sm">
                 PCR, Protein Mutagenesis/Cloning, Protein Production/Purification, SDS Page, Western Blot
+                <br />
                 <br />
                 <a className="underline text-xs" href="https://journals.asm.org/doi/10.1128/jvi.00661-22" target="_blank" rel="noopener noreferrer">
                   <span className="flex items-center gap-2"><PaperIcon className="size-10 sm:size-6 hover:opacity-70 text-[#7b8588]" />Molecular Determinants of Tissue Specificity of Flavivirus Nonstructural Protein 1 Interaction with Endothelial Cells</span>
