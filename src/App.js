@@ -86,9 +86,10 @@ function App() {
             >
               <h3 className="vertical-timeline-element-title">Research Associate</h3>
               <h4 className="vertical-timeline-element-subtitle"><a href="https://www.shinobitx.com/" target="_blank" rel="noopener noreferrer" className="underline"> Shinobi Therapeutics</a></h4>
-              {/* <p>
-                Add Description
-              </p> */}
+              <p>
+                Flow Cytometry, Cell Culture, Gene Editing, Cell Assays
+                
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
