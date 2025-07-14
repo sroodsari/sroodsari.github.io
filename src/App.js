@@ -91,7 +91,7 @@ function App() {
                 <br />
                 <br />
                 <a className="underline text-xs" href="https://www.cell.com/cell-stem-cell/fulltext/S1934-5909(23)00365-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS193459092300365X%3Fshowall%3Dtrue" target="_blank" rel="noopener noreferrer">
-                  <span className="flex items-center gap-2"><PaperIcon className="size-10 sm:size-6 hover:opacity-70 text-[#7b8588]" />Molecular Determinants of Tissue Specificity of Flavivirus Nonstructural Protein 1 Interaction with Endothelial Cells</span>
+                  <span className="flex items-center gap-2"><PaperIcon className="size-10 sm:size-6 hover:opacity-70 text-[#7b8588]" />Synthetic immune checkpoint engagers protect HLA-deficient iPSCs and derivatives from innate immune cell cytotoxicity</span>
                 </a>
               </p>
             </VerticalTimelineElement>
