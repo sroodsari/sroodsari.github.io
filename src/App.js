@@ -74,9 +74,9 @@ function App() {
             >
               <h3 className="vertical-timeline-element-title">Software Engineer</h3>
               <h4 className="vertical-timeline-element-subtitle">Asana</h4>
-              {/* <p>
-                Add Description
-              </p> */}
+              <p className="font-light text-[#7b8588] text-sm">
+                React, Agentic AI
+              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
