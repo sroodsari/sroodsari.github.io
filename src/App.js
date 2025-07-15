@@ -62,7 +62,7 @@ function App() {
             >
               <h3 className="vertical-timeline-element-title">Growth Product Manager</h3>
               <h4 className="vertical-timeline-element-subtitle">Candle</h4>
-              <p className="font-light text-[#7b8588] text-sm">
+              <p className="font-light text-[#ffffff] text-sm">
                 Product Management, Growth Hacking, User Research, User Testing
               </p>
             </VerticalTimelineElement>
