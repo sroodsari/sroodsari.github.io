@@ -87,7 +87,7 @@ function App() {
               <h3 className="vertical-timeline-element-title">Research Associate</h3>
               <h4 className="vertical-timeline-element-subtitle"><a href="https://www.shinobitx.com/" target="_blank" rel="noopener noreferrer" className="underline"> Shinobi Therapeutics</a></h4>
               <p className="font-light text-[#7b8588] text-sm">
-                Flow Cytometry, Cell Culture, Gene Editing, Cell Assays
+                Flow Cytometry, Cell Culture, Gene Editing, Assay Development
                 <br />
                 <br />
                 <a className="underline text-xs" href="https://www.cell.com/cell-stem-cell/fulltext/S1934-5909(23)00365-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS193459092300365X%3Fshowall%3Dtrue" target="_blank" rel="noopener noreferrer">
@@ -148,7 +148,7 @@ function App() {
               <h3 className="vertical-timeline-element-title">Research Assistant</h3>
               <h4 className="vertical-timeline-element-subtitle">UC Berkeley Dept of Molecular & Cell Biology, <a href="https://mcb.berkeley.edu/labs/weisblat/" target="_blank" rel="noopener noreferrer" className="underline">Weisblat Lab</a></h4>
               <p className="font-light text-[#7b8588] text-sm">
-                In Situ Hybridization, Fluorescent Lineage Tracing, CRISPR editing
+                In Situ Hybridization, Fluorescent Lineage Tracing, CRISPR editing, Embryonic Injections
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
